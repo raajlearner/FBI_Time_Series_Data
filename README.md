@@ -37,8 +37,9 @@ ts = ts.asfreq('D')
 
 Handled missing dates using forward fill.
 ----
+```
 ##  📊 EXPLORATORY DATA ANALYSIS (EDA)
-
+```
 **Key Visualizations:**
 
 📈 Trend Plot → shows fluctuations over time
@@ -77,7 +78,7 @@ Limitations in Forecast:
 Struggles with sudden spikes
 Cannot fully capture extreme variations
 ----
-# 💼 Business Insights
+## 💼 Business Insights
 
 📌 Improved Data Quality → better model reliability
 
@@ -89,7 +90,7 @@ Cannot fully capture extreme variations
 
 ----
 
-# 🚀 Business Impact
+## 🚀 Business Impact
 
 Resource Planning: Allocate resources based on expected demand
 Peak Management: Prepare for high-activity periods
@@ -97,12 +98,12 @@ Decision Support: Enable data-driven strategies
 
 ----
 
-⚠️ Limitations
+##⚠️ Limitations
 Cannot accurately predict extreme spikes
 Forecast is smoother than real-world data
 Limited feature engineering
 ----
-🔮 Future Improvements
+##🔮 Future Improvements
 Implement advanced models.
 
 Add external features (weather, holidays, etc.)
@@ -110,9 +111,9 @@ Add external features (weather, holidays, etc.)
 Perform hyperparameter tuning for better accuracy
 
 ----
-
-✅ Conclusion
-
+```
+## ✅ Conclusion
+```
 This project demonstrates how raw data can be transformed into meaningful time series insights.
 
 The SARIMA model provides reasonably accurate forecasts, capturing underlying patterns and enabling better planning. While improvements are possible, the current approach delivers practical and actionable insights.
